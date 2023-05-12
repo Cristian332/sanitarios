@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Reporte de Anomalías en Sanitarios</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			color: #333;
+		}
+
+		header {
+			background-color: #007bff;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		form {
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+
+		select,
+		input[type="text"] {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			font-size: 16px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			margin-bottom: 20px;
+		}
+
+		select {
+			background-color: #fff;
+		}
+
+		input[type="submit"] {
+			background-color: #007bff;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			font-size: 16px;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #0062cc;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Reporte de Anomalías en Sanitarios</h1>
+	</header>
+
+	<<form action="https://formsubmit.co/cris3312.muoz@gmail.com" method="POST" enctype="multipart/form-data">
+		<label for="problema">Seleccione el problema:</label>
+		<select id="problema" name="problema" required>
+			<option value="">Seleccione una opción</option>
+			<option value="1">Fuga de agua</option>
+			<option value="2">Inodoro tapado</option>
+			<option value="3">Lavabo tapado</option>
+			<option value="4">Falta de papel higiénico</option>
+			<option value="5">Otro</option>
+		</select>
+
+		<label for="otroProblema">Describa el problema:</label>
+		<input type="text" id="otroProblema" name="otroProblema">
+
+		<label for="imagen">Adjunte una imagen (opcional):</label>
+		<input type="file" id="imagen" name="imagen">
+
+		<input type="submit" value="Enviar">
+	</form>
+  <!-- your other form fields go here -->
+</form>
+
+</body>
+</html>
